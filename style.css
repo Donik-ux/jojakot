@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #1E1E2E;
+    padding: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    margin-right: 10px;
+    border-bottom: 2px solid transparent;
+}
+
+.navbar a:hover {
+    color: #ff9c28;
+    transform: 0.5s;
+}
+.search-input {
+    padding: 5px;
+    margin-left: auto;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.search-btn {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.language-select {
+    padding: 5px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.back{
+    background: url(Bg.png)no-repeat;
+    height: 555px;
+    background-position: center;
+    background-size: cover;
+}
+main{
+    background-color: #000;
+}
+h1{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-info{
+    background-color: #000;
+    padding-top: 50px;
+}
+.content {
+    margin: 0 auto;
+    background: #1B1E27;
+    width: 1189px;
+    height: 928px;
+    
+}
+.color{
+    background-color: black;
+    height: 1000px;
+}
+.content{
+    background-color: #1B1E27;
+    height: 928px;
+    width: 1189px;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+.text{
+    width: 400px;
+    color: white;
+}
+.oneimg{
+    display: flex;
+    margin-left: 200px;
+    gap: 40px;
+}
+.PGL{
+    margin-left: 200px;
+    color: white;
+}
+.twoimg{
+    display: flex;
+    margin-left: 200px;
+    gap: 40px;
+}
+footer{
+    background-color: #272C3D;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    box-shadow: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.head_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 25px;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+.head_ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    gap: 15px;
+}
+.head_ul :hover{
+    color: #FF9C28;
+}
+.head_ul a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
